@@ -5,9 +5,7 @@ Machine learning system for classifying haemochromatosis subtypes using K-means 
 Overview
 <img width="2100" height="930" alt="graphical_abstract" src="https://github.com/user-attachments/assets/186d8f9c-d846-4776-9320-4435184ae74a" />
 This project explores hereditary haemochromatosis (a disorder of iron metabolism, most commonly linked to mutations in the HFE gene) using unsupervised clustering on genetic association data. Genes such as HFE, HJV, HAMP, TFR2, SLC40A1, and FTH1 are used as features to group records into clusters corresponding to haemochromatosis types 1 through 5, which are then mapped onto clinical interpretations, evidence, and treatment recommendations.
-<img width="1590" height="1390" alt="results_figure" src="https://github.com/user-attachments/assets/a6d6d361-1c21-4f84-a913-8393699c1dc3" />
 ## Research Team
-
 - Dr. Abeer Farag Desouky
 - Nour Elhoda Moussa
 - Dr. Sayeda Abdelrazek Abdelhamid
@@ -23,7 +21,7 @@ Genetic-Disorder-Clustering-Haemochromatosis/
 ├── data/                     # Dataset (e.g. Hemochromatosis.xls)
 ├── Copy_of_project.ipynb     # Full analysis notebook (data cleaning, clustering, evaluation)
 └── README.md
-
+<img width="1590" height="1390" alt="image" src="https://github.com/user-attachments/assets/2a357244-5ab0-41fd-adea-92a97836eb0b" />
 Pipeline
 <img width="1500" height="1770" alt="pipeline_figure" src="https://github.com/user-attachments/assets/5bbab6dd-e6d4-45cf-a8c1-8230409b02fd" />
 Data cleaning — drop null columns, standardize the gene/disease association dataset.
