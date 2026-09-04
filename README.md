@@ -5,7 +5,9 @@ Machine learning system for classifying haemochromatosis subtypes using K-means 
 Overview
 
 This project explores hereditary haemochromatosis (a disorder of iron metabolism, most commonly linked to mutations in the HFE gene) using unsupervised clustering on genetic association data. Genes such as HFE, HJV, HAMP, TFR2, SLC40A1, and FTH1 are used as features to group records into clusters corresponding to haemochromatosis types 1 through 5, which are then mapped onto clinical interpretations, evidence, and treatment recommendations.
+
 Project structure
+
 Genetic-Disorder-Clustering-Haemochromatosis/
 ├── app.py                    # Streamlit web app for patient classification
 ├── requirements.txt          # Python dependencies
@@ -16,16 +18,21 @@ Genetic-Disorder-Clustering-Haemochromatosis/
 ├── data/                     # Dataset (e.g. Hemochromatosis.xls)
 ├── Copy_of_project.ipynb     # Full analysis notebook (data cleaning, clustering, evaluation)
 └── README.md
+
 Pipeline
+
 Data cleaning — drop null columns, standardize the gene/disease association dataset.
 Feature engineering — build a feature matrix from gene presence, species evidence, and disease-type associations.
 Clustering — K-means (and DBSCAN as a comparison) to group records by genetic subtype, evaluated with silhouette score and Davies–Bouldin index.
 Classification — map new patient genetic profiles onto the nearest cluster to suggest a likely haemochromatosis subtype, supporting evidence, recommended tests, and treatment implications.
 Web app — a Streamlit interface where a user selects a patient's HFE mutation status and receives a classification with clinical recommendations.
+
 Installation
 pip install -r requirements.txt
+
 Running 
 the appstreamlit run app.py
+
 Disclaimer
 This is a research/educational tool for exploring genetic clustering methods. It is not a diagnostic tool and should not be used for clinical decision-making without validation by qualified medical and genetic professionals.
 streamlit==1.28.0
@@ -36,11 +43,10 @@ matplotlib==3.7.2
 seaborn==0.12.2
 tabulate
 openpyxl
+
  import streamlit as st
 import pandas as pd
 import pickle
-
-
 class HemochromatosisWebApp:
     def __init__(self):
         # Load trained model
