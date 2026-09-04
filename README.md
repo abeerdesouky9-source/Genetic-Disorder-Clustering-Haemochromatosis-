@@ -160,3 +160,135 @@ if __name__ == '__main__':
     app = HemochromatosisWebApp()
     app.run()
 <img width="1590" height="1390" alt="results_figure" src="https://github.com/user-attachments/assets/3ba424dc-e50d-4dfe-850d-7f9b23a18b9f" />
+<img width="1725" height="826" alt="image" src="https://github.com/user-attachments/assets/1e70209f-2ee2-45e5-b169-89d42069812b" />
+<img width="1589" height="690" alt="image" src="https://github.com/user-attachments/assets/9d7728b7-1dc2-42c0-b74f-b108e7d30cea" />
+<img width="1549" height="691" alt="image" src="https://github.com/user-attachments/assets/4d951553-243d-4af8-adce-1b893e8fa79a" />
+<img width="1589" height="690" alt="image" src="https://github.com/user-attachments/assets/07f015bc-2693-4ff1-b2b9-85accfe1a0cb" />
+<img width="1383" height="985" alt="image" src="https://github.com/user-attachments/assets/11923787-c52b-4962-b9fc-2f792ada51a7" />
+<img width="1587" height="726" alt="image" src="https://github.com/user-attachments/assets/0bb78871-4688-45ba-a4e1-a92953ab7a5c" />
+<img width="1789" height="1180" alt="image" src="https://github.com/user-attachments/assets/61ff2e46-f541-4993-b4e2-b20dbc4c164c" />
+<img width="1589" height="691" alt="image" src="https://github.com/user-attachments/assets/e4b10032-c367-4c62-a6a3-c01ff4369125" />
+<img width="850" height="552" alt="image" src="https://github.com/user-attachments/assets/241d259b-578e-44bb-b482-6ae04b8d9ba6" />
+<img width="1475" height="1180" alt="image" src="https://github.com/user-attachments/assets/730fec1d-df0a-47cb-af04-7e2c4a6d80c4" /><img width="1789" height="490" alt="image" src="https://github.com/user-attachments/assets/0a7d452d-eac0-48de-89ba-41b3285f66cc" />
+ ============================================================
+🧬 HEMOCHROMATOSIS AI CLASSIFICATION SYSTEM
+============================================================
+Model Accuracy: 89.95% | Clusters: 3 | Ready for use
+
+📦 Loading model and data...
+✅ Model loaded successfully!
+
+============================================================
+👨‍⚕️ INTERACTIVE PATIENT CLASSIFICATION
+============================================================
+
+📋 Enter Patient Information:
+HFE Mutation:No mutationC282Y HeterozygousC282Y HomozygousH63D HeterozygousCompound HeterozygousOther Mutations:HJVHAMPTFR2SLC40A1FTH1Age:45Ferritin (μg/L):1200🔬 Run Classification
+============================================================
+📊 CLASSIFICATION RESULTS
+============================================================
+
+✅ PATIENT PROFILE:
+   • HFE Mutation: No mutation
+   • Other Mutations: None
+   • Age: 45 years
+   • Ferritin: 1200 μg/L
+
+🎯 PREDICTION:
+   • Cluster: 2
+   • Hemochromatosis Type: Type 4/5 (Ferroportin/Ferritin/Other)
+   • Confidence: 72%
+   • Model Accuracy: 89.95%
+
+💡 CLINICAL RECOMMENDATIONS:
+   • ✅ Test for SLC40A1 and FTH1 mutations
+   • ✅ Monitor neurological symptoms
+   • ✅ Consider chelation therapy
+   • ✅ Multidisciplinary team approach
+
+📄 REPORT GENERATED:
+   • Patient ID: DEMO_8575
+   • Date: 2025-12-10
+   • Model Used: K-means Clustering (89.95% accuracy)
+   • Report saved to memory
+
+============================================================
+📋 SAMPLE TEST CASES
+============================================================
+
+1. Classic Type 1:
+   • Prediction: Type 1 (HFE-related, Classical)
+   • Confidence: 85%
+   • Expected: Classic Type 1
+
+2. Juvenile Type 2:
+   • Prediction: Type 2/3 (Juvenile/Mixed)
+   • Confidence: 78%
+   • Expected: Juvenile Type 2
+
+3. Type 4 Case:
+   • Prediction: Type 4/5 (Ferroportin/Ferritin/Other)
+   • Confidence: 72%
+   • Expected: Type 4 Case
+
+============================================================
+📈 MODEL PERFORMANCE DASHBOARD
+============================================================
+
+============================================================
+📦 FINAL PRODUCT PACKAGE
+============================================================
+
+✅ YOUR COMPLETE HEMOCHROMATOSIS AI SYSTEM INCLUDES:
+
+1. 🧬 CORE MODEL:
+   • Trained K-means clustering (89.95% accuracy)
+   • UMAP dimensionality reduction
+   • DBSCAN outlier detection
+   • Validation results saved
+
+2. 📊 ANALYSIS TOOLS:
+   • Cluster validation reports
+   • Accuracy metrics dashboard
+   • Biological interpretation
+   • Visualization tools
+
+3. 🩺 CLINICAL APPLICATION:
+   • Patient classification system
+   • Genetic mutation analysis
+   • Clinical recommendations
+   • Report generation
+
+4. 📁 FILES GENERATED:
+   • hemochromatosis_clustering_model.pkl
+   • validation_results.pkl
+   • cluster_validation_report.png
+   • accuracy_analysis_dashboard.png
+
+5. 🚀 DEPLOYMENT READY:
+   • Interactive Colab notebook
+   • Streamlit web app (optional)
+   • API endpoints (can be added)
+   • Docker container (can be added)
+
+📋 HOW TO USE:
+1. Load model: pickle.load('hemochromatosis_clustering_model.pkl')
+2. Classify patient: model.predict(patient_features)
+3. Get results: Cluster assignment + confidence score
+4. Generate report: Clinical recommendations
+
+🎯 FOR YOUR PRESENTATION:
+• Show the interactive classification demo
+• Display the 89.95% accuracy score
+• Show cluster visualizations
+• Present sample cases
+• Demonstrate clinical utility
+
+
+✅ Final product summary saved: final_product_summary.json
+
+🎉 YOUR HEMOCHROMATOSIS AI PROJECT IS COMPLETE AND READY TO USE!
+<img width="1189" height="396" alt="image" src="https://github.com/user-attachments/assets/48548eb9-e4b7-466e-8e24-f121c72044db" />
+
+
+
