@@ -21,9 +21,9 @@ Genetic-Disorder-Clustering-Haemochromatosis/
 ├── data/                     # Dataset (e.g. Hemochromatosis.xls)
 ├── Copy_of_project.ipynb     # Full analysis notebook (data cleaning, clustering, evaluation)
 └── README.md
-<img width="1590" height="1390" alt="image" src="https://github.com/user-attachments/assets/2a357244-5ab0-41fd-adea-92a97836eb0b" />
+
 Pipeline
-<img width="1500" height="1770" alt="pipeline_figure" src="https://github.com/user-attachments/assets/5bbab6dd-e6d4-45cf-a8c1-8230409b02fd" />
+<img width="1500" height="1770" alt="pipeline_figure" src="https://github.com/user-attachments/assets/2ffa55a8-cb2b-448f-8a23-e47730c33d60" />
 Data cleaning — drop null columns, standardize the gene/disease association dataset.
 Feature engineering — build a feature matrix from gene presence, species evidence, and disease-type associations.
 Clustering — K-means (and DBSCAN as a comparison) to group records by genetic subtype, evaluated with silhouette score and Davies–Bouldin index.
@@ -159,3 +159,4 @@ class HemochromatosisWebApp:
 if __name__ == '__main__':
     app = HemochromatosisWebApp()
     app.run()
+<img width="1590" height="1390" alt="results_figure" src="https://github.com/user-attachments/assets/3ba424dc-e50d-4dfe-850d-7f9b23a18b9f" />
