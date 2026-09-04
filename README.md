@@ -3,7 +3,7 @@ Genetic Disorder Clustering: Haemochromatosis
 Machine learning system for classifying haemochromatosis subtypes using K-means clustering on gene–disease association data, with a Streamlit web app for interactive patient classification.
 
 Overview
-
+<img width="2100" height="930" alt="graphical_abstract" src="https://github.com/user-attachments/assets/186d8f9c-d846-4776-9320-4435184ae74a" />
 This project explores hereditary haemochromatosis (a disorder of iron metabolism, most commonly linked to mutations in the HFE gene) using unsupervised clustering on genetic association data. Genes such as HFE, HJV, HAMP, TFR2, SLC40A1, and FTH1 are used as features to group records into clusters corresponding to haemochromatosis types 1 through 5, which are then mapped onto clinical interpretations, evidence, and treatment recommendations.
 
 Project structure
@@ -20,7 +20,7 @@ Genetic-Disorder-Clustering-Haemochromatosis/
 └── README.md
 
 Pipeline
-
+<img width="1500" height="1770" alt="pipeline_figure" src="https://github.com/user-attachments/assets/5bbab6dd-e6d4-45cf-a8c1-8230409b02fd" />
 Data cleaning — drop null columns, standardize the gene/disease association dataset.
 Feature engineering — build a feature matrix from gene presence, species evidence, and disease-type associations.
 Clustering — K-means (and DBSCAN as a comparison) to group records by genetic subtype, evaluated with silhouette score and Davies–Bouldin index.
