@@ -5,7 +5,11 @@ Machine learning system for classifying haemochromatosis subtypes using K-means 
 Overview
 <img width="2100" height="930" alt="graphical_abstract" src="https://github.com/user-attachments/assets/186d8f9c-d846-4776-9320-4435184ae74a" />
 This project explores hereditary haemochromatosis (a disorder of iron metabolism, most commonly linked to mutations in the HFE gene) using unsupervised clustering on genetic association data. Genes such as HFE, HJV, HAMP, TFR2, SLC40A1, and FTH1 are used as features to group records into clusters corresponding to haemochromatosis types 1 through 5, which are then mapped onto clinical interpretations, evidence, and treatment recommendations.
+## Research Team
 
+- Dr. Abeer Farag Desouky
+- Nour Elhoda Moussa
+- Dr. Sayeda Abdelrazek Abdelhamid
 Project structure
 
 Genetic-Disorder-Clustering-Haemochromatosis/
